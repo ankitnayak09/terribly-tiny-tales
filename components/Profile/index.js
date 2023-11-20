@@ -10,7 +10,7 @@ export default function Profile() {
 		<>
 			<Image
 				src={"/" + userData.coverPicture}
-				alt="cover"
+				alt="Cover Picture"
 				className="h-[150px] w-full object-cover"
 				height={150}
 				width={500}
@@ -20,7 +20,7 @@ export default function Profile() {
 				<div className="grid grid-cols-12">
 					<Image
 						src={"/" + userData.profilePicture}
-						alt=""
+						alt="Profile Picture"
 						className="w-[90px] h-[90px] rounded-full border-2 border-gray  -mt-5 col-span-4 md:col-span-2 "
 						width={90}
 						height={90}

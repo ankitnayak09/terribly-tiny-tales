@@ -7,7 +7,7 @@ export default function Navbar() {
 			<div className="flex gap-2 items-center logo uppercase text-[#E8E8E8FF] font-medium tracking-[.25rem]">
 				<Image
 					src="./logo.svg"
-					alt=""
+					alt="Stories Logo"
 					className="w-[24px]"
 					width="24"
 					height="24"
