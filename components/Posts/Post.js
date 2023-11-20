@@ -25,7 +25,7 @@ export default function Post({
 							<>
 								{content.map((para, index) => (
 									<p
-										className="text-sm text-slate-700 my-6"
+										className="text-sm text-slate-700 my-6 line-clamp-2"
 										key={index}
 									>
 										{para}
