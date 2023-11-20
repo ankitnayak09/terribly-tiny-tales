@@ -9,7 +9,7 @@ export default function StatsCard({ statsFor, statsValue }) {
 	if (statsFor === "followers" || statsFor === "following") {
 		return (
 			<p className="text-gray text-center mt-2 capitalize">
-				<span className="block border border-2 border-gray rounded-md text-center text-base font-bold opacity-80 px-4">
+				<span className="block border-2 border-gray rounded-md text-center text-base font-bold opacity-80 px-4">
 					{statsValue}
 				</span>
 				{statsFor}

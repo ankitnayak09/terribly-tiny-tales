@@ -12,7 +12,7 @@ export default function Post({
 	date,
 }) {
 	return (
-		<div className="border border-transparent border-2 border-b-slate-200 py-5 px-4">
+		<div className="border-2 border-transparent border-b-slate-200 py-5 px-4">
 			<div className="flex justify-between items-center mb-2">
 				<h2 className="font-bold text-lg">{title}</h2>
 				<Likes />
