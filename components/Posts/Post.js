@@ -1,4 +1,4 @@
-import Likes from "@/public/icons/Likes";
+import Likes from "@/components/icons/Likes";
 
 export default function Post({
 	title,

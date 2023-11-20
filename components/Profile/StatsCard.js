@@ -1,7 +1,7 @@
-import Likes from "@/public/icons/Likes";
-import Loved from "@/public/icons/Loved";
-import Stars from "@/public/icons/Stars";
-import Views from "@/public/icons/Views";
+import Likes from "@/components/icons/Likes";
+import Loved from "@/components/icons/Loved";
+import Stars from "@/components/icons/Stars";
+import Views from "@/components/icons/Views";
 import { abbreviateNumber } from "js-abbreviation-number";
 import React from "react";
 
