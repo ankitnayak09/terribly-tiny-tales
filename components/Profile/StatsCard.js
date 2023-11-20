@@ -10,7 +10,7 @@ export default function StatsCard({ statsFor, statsValue }) {
 		return (
 			<p className="text-gray text-center mt-2 capitalize">
 				<span className="block border border-2 border-gray rounded-md text-center text-base font-bold opacity-80 px-4">
-					{abbreviateNumber(statsValue)}
+					{statsValue}
 				</span>
 				{statsFor}
 			</p>
