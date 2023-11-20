@@ -8,6 +8,10 @@ https://terribly-tiny-tales-profile.vercel.app/
 
 ![Demo](demo.png)
 
+## Lighthouse Score
+
+![Alt text](lighthouseScore.png)
+
 ## Features
 
 -   Display User Profile Information
@@ -220,4 +224,6 @@ export default function Post({
 
 ## Optimizations
 
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+-   Utilized Next.js `Image` component for image optimization, reducing First Contentful Paint (FCP) by efficiently loading and displaying images.
+-   Named icon images in alignment with the corresponding props for seamless rendering and improved code readability.
+-   Implemented the `alt` attribute for images to enhance accessibility by providing descriptive text for screen readers.
