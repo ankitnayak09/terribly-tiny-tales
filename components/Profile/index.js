@@ -2,6 +2,8 @@ import React from "react";
 import { userData } from "@/public/data";
 import StatsCard from "./StatsCard";
 import Image from "next/image";
+import Diamond from "@/public/icons/Diamond";
+import Check from "@/public/icons/Check";
 
 export default function Profile() {
 	return (
@@ -19,15 +21,17 @@ export default function Profile() {
 					<Image
 						src={"/" + userData.profilePicture}
 						alt=""
-						className="w-[90px] h-[90px] rounded-full border-2 border-gray  -mt-5 col-span-4"
+						className="w-[90px] h-[90px] rounded-full border-2 border-gray  -mt-5 col-span-4 md:col-span-2"
 						width={90}
 						height={90}
 						quality={100}
 					/>
-					<div className="col-span-6 mt-1 ml-4">
-						<div>
+					<div className="col-span-6 mt-1">
+						<div className="flex gap-1 items-center">
 							<h1 className="font-bold">{userData.name}</h1>
 							{/* TODO: Add Icons */}
+							<Diamond />
+							<Check />
 						</div>
 						<div className="flex gap-2 text-sm">
 							<StatsCard
