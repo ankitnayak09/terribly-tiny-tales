@@ -26,7 +26,7 @@ export const postsData = [
 		postBy: "anujgosalia",
 		views: 102,
 		date: "August 2",
-		readingTime: "3 min read",
+		readingTime: "3 mins read",
 	},
 	{
 		title: "India v/s Australia",
@@ -39,7 +39,7 @@ export const postsData = [
 		postBy: "anujgosalia",
 		views: 156,
 		date: "January 21",
-		readingTime: "2 min read",
+		readingTime: "2 mins read",
 	},
 	{
 		title: "Write to Build",

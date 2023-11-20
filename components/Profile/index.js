@@ -16,7 +16,7 @@ export default function Profile() {
 				width={500}
 				quality={100}
 			/>
-			<div className="px-5 mb-4">
+			<div className="px-5 mb-8">
 				<div className="grid grid-cols-12">
 					<Image
 						src={"/" + userData.profilePicture}
