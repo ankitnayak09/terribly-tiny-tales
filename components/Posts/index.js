@@ -10,8 +10,8 @@ export default function Posts() {
 				</div>
 				<div className="border border-transparent border-b-slate-200 w-full"></div>
 			</div>
-			{postsData.map((post) => (
-				<Post {...post} />
+			{postsData.map((post, index) => (
+				<Post {...post} key={index} />
 			))}
 		</section>
 	);

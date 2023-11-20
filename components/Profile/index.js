@@ -1,21 +1,28 @@
 import React from "react";
 import { userData } from "@/public/data";
 import StatsCard from "./StatsCard";
+import Image from "next/image";
 
 export default function Profile() {
 	return (
 		<>
-			<img
-				src={userData.coverPicture}
+			<Image
+				src={"/" + userData.coverPicture}
 				alt="cover"
 				className="h-[150px] w-full object-cover"
+				height={150}
+				width={500}
+				quality={100}
 			/>
 			<div className="px-5 mb-4">
 				<div className="grid grid-cols-12">
-					<img
-						src={userData.profilePicture}
+					<Image
+						src={"/" + userData.profilePicture}
 						alt=""
 						className="w-[90px] h-[90px] rounded-full border-2 border-gray  -mt-5 col-span-4"
+						width={90}
+						height={90}
+						quality={100}
 					/>
 					<div className="col-span-6 mt-1 ml-4">
 						<div>

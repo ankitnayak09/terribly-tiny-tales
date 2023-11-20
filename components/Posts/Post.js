@@ -23,8 +23,11 @@ export default function Post({
 					case "Paragraph":
 						return (
 							<>
-								{content.map((para) => (
-									<p className="text-sm text-slate-700 my-6">
+								{content.map((para, index) => (
+									<p
+										className="text-sm text-slate-700 my-6"
+										key={index}
+									>
 										{para}
 									</p>
 								))}
@@ -35,8 +38,10 @@ export default function Post({
 							<>
 								<p className="my-4">{listHeading}</p>
 								<ul className="list-disc list-inside text-sm text-slate-700 mb-6">
-									{content.map((item) => (
-										<li className="list-none">- {item}</li>
+									{content.map((item, index) => (
+										<li className="list-none" key={index}>
+											- {item}
+										</li>
 									))}
 								</ul>
 							</>
